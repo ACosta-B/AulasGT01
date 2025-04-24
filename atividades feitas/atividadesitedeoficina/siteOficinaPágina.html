@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina ABCAR: Serviços Automotivos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            border: 5px;
+            background-color: darkgrey;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card:hover{
+            transform: scale(1.10);
+            background-color: blanchedalmond;
+        }
+
+        .container {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .opcoes {
+            border: 2px solid rgb(169, 161, 161);
+            border-radius: 35px;
+            background-color: gainsboro;
+            height: 250px;
+            width: 250px;
+            transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+
+        .Titulo {
+            border: 3px solid darkgrey;
+            background-color: black;
+            border-radius: 5px;
+            padding: 30px;
+        }
+
+        .caixa2{
+            font-family: 'Courier New', Courier, monospace;
+            color: azure;
+            text-align: center;
+        }
+
+        .caixa1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(43, 39, 39);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .contato {
+            text-align: left;
+            padding: 20px;
+            color: bisque;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa2 Titulo">
+            <h1>ABCAR: serviços automotivos</h1>
+            <p>Seu carro em boas mãos!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="caixa1 opcoes card">
+            <h3>Troca de óleo</h3>
+            <img src="imgoficina/OIP.jpg" alt="">
+            <p> Óleo de motor de alta qualidade e serviço rápido.</p>
+        </section>
+
+        <section class="caixa1 opcoes card">
+            <h3>Alinhamento</h3>
+            <img src="imgoficina/baixados (1).jpg" alt="">
+            <p>Alinhamento computadorizado para sua segurança</p>
+        </section>
+
+        <section class="caixa1 opcoes card">
+            <h3>Revisão completa</h3>
+            <img src="imgoficina/mec.1.jpg" alt="">
+            <p>faça a revisão antes de pegar estrada!</p>
+        </section>
+    </main>
+
+    <footer class="caixa2 Titulo">
+        <section class="contato">
+            <h3>Contato</h3>
+            <p><strong>Endereço:</strong> Avenida Corno Manso, 897-José Walter</p>
+            <p><strong>Telefone:</strong>(85) 9345-6543</p>
+            <p><strong>Horário:</strong>Segunda à Sábado, das 8h-18h</p>
+        </section>
+        <p>Todos os Direitos reservados</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background-color: rgb(204, 29, 29);
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+footer{
+    background-color: rgb(204, 29, 29);
+    color: bisque;
+    padding: 50px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+
+nav li  {
+    background-color: hsl(0, 75%, 79%);
+    color: rgb(245, 2, 2);
+    list-style: none;
+    display: inline;
+    text-decoration: underline;
+}
+
+
+.Titúlo{
+    text-align: center;
+    color: bisque;
+}
+.Saudação{
+    text-align: center;
+    padding: 50px;
+}
+.Subtítulos{
+    text-align: left;
+    padding: 25px
+}
+
+.Destaques1{
+    border: 2px solid rgb(253, 175, 130);
+    background-color: rgb(253, 175, 130);
+    border-radius: 10px;
+
+    padding: 25px
+}
+
+.Destaques2{
+    border: 2px solid rgb(253, 235, 130);
+    background-color: rgb(253, 235, 130);
+    border-radius: 10px;
+}
+
+.Destaques3{
+    border: 2px solid rgb(253, 175, 130);
+    background-color: rgb(253, 175, 130);
+    border-radius: 10px;
+ 
+    padding: 25px
+
+}
+.opcoes{
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+    background-color: whitesmoke;
+
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card:hover{
+    transform: scale(1.10);
+    background-color: blanchedalmond;
+}
+
+
+    
