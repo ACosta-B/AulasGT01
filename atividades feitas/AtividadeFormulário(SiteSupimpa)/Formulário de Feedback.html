@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um site supimpa/Formulário de Feedback</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Um site supimpa!</h1>
+        <p>O vicío que não te mata, mas te reprime!</p>
+    </header>
+    <div class="caixa2"><h1>Formulário de Feedback</h1></div>
+    <div class="caixa1">
+
+        <label for="Nome"><strong>Seu Nome:</strong></label><br>
+        <input type="text" name="id" id="Nome" required="required" placeholder="Ex: Milton Neves Abraão"><br>
+        <label for="E-mail"><strong>Seu E-mail:</strong></label><br>
+        <input type="E-mail" name="E-mail" id="E-mail" required="required" placeholder="Ex: miltonlinde@gmail.com"><br>
+        <label for="Data"><strong>Data de Nascimento:</strong></label><br>
+        <input type="date" name="Data" id="Data"><br>
+    
+        <label for="Atendimento"><strong>Como você foi atendido?</strong></label><br>
+        <input type="radio" name="Atendimento" id="Presencial" value="Presencial"><label for="Presencial">Presencial</label>
+        <input type="radio" name="Atendimento" id="Telefone" value="Telefone"><label for="Telefone">Telefone</label>
+        <input type="radio" name="Atendimento" id="Chat Online" value="Chat Online"><label for="Chat Online">Chat
+            Online</label><br>
+    
+        <label for="Nivel de Satisfação"><strong>Nivel de Satisfação</strong></label>
+    <select name="Nivel de Satisfação" id="Nivel de Satisfação">
+        <option value="">Seleciione uma opção!</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select><br>
+
+    
+        <label for="Gostou"><strong>O que você mais gostou?</strong></label><br>
+        <input type="radio" name="Gostou" id="Rapidez" value="Rapidez"><label for="Rapidez">Rapidez</label>
+        <input type="radio" name="Gostou" id="Educação" value="Educação"><label for="Educação">Educação</label>
+        <input type="radio" name="Gostou" id="Resolução do Problema" value="Resolução do Problema"><label
+            for="Resolução do Problema">Resolução do Problema</label>
+        <input type="radio" name="Gostou" id="Outros" value="Outros"><label for="Outros">Outros</label><br>
+    
+        <label for="Sugestão"><strong>Deixe um comentário ou sugestão</strong></label><br>
+        <textarea name="Sugestão" id="Sugestão" maxlength="20" rows="5" cols="0"
+            placeholder="Deixe aqui sua opnião a fim de melhorar a experiência do usuário!"></textarea><br>
+    
+        <input type="" value="Enviar Feedback!">
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+   
+
+</body>
+
+</html>

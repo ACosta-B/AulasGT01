@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(134, 182, 219);
+}
+header {
+    border: 30px solid rgb(249, 249, 4);
+    background-color: rgb(249, 21, 237);
+    border-radius: 50px;
+    
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    color: aqua;
+}
+.caixa2{
+    text-align: center;
+}
+
+.caixa1 {
+    border: 5px solid burlywood;
+    background-color: palevioletred;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: "Bungee Tint", sans-serif;
+}

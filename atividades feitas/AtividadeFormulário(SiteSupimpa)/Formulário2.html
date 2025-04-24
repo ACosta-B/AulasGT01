@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07, Formulários</title>
+</head>
+
+<body>
+    <h1>Formulário Parte 2!</h1>
+
+    <form action=""></form>
+    <label for="Nome"><strong>Nome:</strong></label><br>
+    <input type="text" name="id" id="Nome"><br>
+    <label for="email"><strong>E-mail:</strong></label><br>
+    <input type="email" name="email" id="email" required="required" placeholder="exemplo@email.com"><br>
+
+    <label for="senha"><strong>Senha:</strong></label><br>
+    <input type="password" name="senha" id="Senha"><br>
+
+    <label for="Idade"><strong>Idade:</strong></label><br>
+    <input type="number" name="Idade" id="Idade" min="0" max="100" step="0.5"><br>
+
+    <label for="Gênero"><strong>Gênero:</strong></label><br>
+    <input type="radio" name="Gênero" id="Masculino" value="Masculino"><label for="Masculino">Masculino</label>
+    <input type="radio" name="Gênero" id="Feminino" value="Feminino"><label for="Feminino">Feminino</label><br>
+    <input type="radio" name="Gênero" id="outro" value="outro"><label for="outro">Outro</label><br>
+
+    <label for="curso"><strong>Curso:</strong></label><br>
+    <input type="checkbox" name="Curso" id="Javascript" value="js"><label for="JavaScript">JavaScript</label>
+    <input type="checkbox" name="Curso" id="Python" value="Python"><label for="Curso">Python</label><br>
+
+    <label for="Data">Data</label><br>
+    <input type="date" name="Data" id="Data"><br>
+
+    <label for="Comentário">Comentário:</label><br>
+    <textarea name="Comentário" id="Comentário" maxlength="20" rows="5"
+    cols="50"></textarea>
+
+    <label for="Fruta">Escolha uma fruta</label>
+    <select name="Fruta" id="Fruta">
+        <option value="">Seleciione uma opção!</option>
+        <option value="Goiaba">Goiaba</option>
+        <option value="Maçã">Maçã</option>
+        <option value="Morango">Morango</option>
+        <option value="Banana">Banana</option>
+        <option value="Nenhum">Nenhum, sou fresco(a)</option>
+    </select>
+
+
+    <br><input type="submit">
+</body>
+
+</html>
