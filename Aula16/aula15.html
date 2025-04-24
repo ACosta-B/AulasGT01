@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica JavaScript Parte1</title>
+    <script>
+
+        //Saída de dados
+        //Alert('mensagem (HTML)')
+        //document.write('Mensagem' (HTML)
+        //console.log ()
+
+        //Entrada de Dados
+
+        //prompt('mensagem')
+        //confirm('mensagem')
+        //acessando o DOM (formulários)
+
+        //Variáveis |_|
+
+        //declaração: let, var, const
+
+        //Regras para nomes de Variáveis:
+        //Não pode: let aluno, let @aluno, let aluno gt, let aluno.gt, let for
+
+        //let nome = ` Maria`
+        //let nome2 = ` Ana`
+
+        //let idade = 28
+
+        //let nome3 = ` Dionizio`
+
+        //let mensagem = `olá ${nome} sua idade é ${idade}`
+        //let x = 10
+        //x = 20
+
+        //console.log(mensagem)
+        //console.log('mensagem')
+
+        //let mensagem2 = ` Olá` + nome2 + ` Sua idade é` +idade
+        //console.log(mensagem2)
+
+        //Operadores de atribuição
+        //   =   -> atribuição simples
+        //  +=   -> soma e atribui
+        //  -=   -> subtrai e atribui
+        
+        /*
+        Praticamente um dever de casa absurdo de complicado por conter matemática! --------------------
+        
+        1 - Receba dois nomes via prompt e mostre uma mensagem de bem-vindo.*/
+
+        //let nome1 = prompt(`nome1: `)
+        //let nome2 = prompt(`nome2: `)
+
+        //console.log("Olá" ${nome1} "e" ${nome2} "sejam bem-vindos ao vale" )
+
+        /*2 - Peça ao usuário um número e mostre o dobro do número*/
+
+        //let x=Number(prompt(`Digite um número: `))
+        //let dobro= x * 2
+
+        //3 - Peça ao usuário seu nome e idade, e mostre uma mensagem exibindo o nome e idade recebidos.
+
+        //let nome =prompt(`Nome: `)
+        //let idade=Number(prompt(`Idade: `))
+        //console.log(`Olá ${nome} "sua idade é" ${idade}`)
+
+        //4 - Peça ao usuário dois números e mostre a soma, subtração, multiplicação e divisão entre eles.
+        //5 - Peça ao usuário digitar a largura e o comprimento de um terreno e mostre uma mensagem com área. Área = Largura * Comprimento
+        //6 - Peça ao usuário digitar uma quantidade de dias e mostre quantos minutos representa essa quantidade de dias.
+
+        let dias=Number(prompt(`Dias`))
+        let minutos =dias * 60
+
+        //7 - Faça um programa que recebe os coeficientes a, b e c de uma equação do 2° grau e encontre as raizes.
+
+        let delta = b*b - 4*a*c 
+
+        let x1 = (-b + Math.sqrt(delta))/(2*a)
+        let x2 = (-b - Math.sqrt(delta))/(2*a)
+
+        console.log(`a equação ${a}x² + ${b}x + ${c} tem as raízes x1 = ${x1} e x2 = ${x2}`)
+
+        //8 - Crie um programa que solicite a altura e o peso de uma pessoa e calcule o IMC.
+        //IMC = peso / (altura x altura).
+
+        let altura =Number(prompt(`altura`))
+        let peso =Number(prompt(`peso`))
+        let IMC =peso/(altura*altura)
+
+        console.log(`Seu IMC é ${imc.tofixed(2)}`)
+        
+        //9 - Crie um programa que solicite a idade de um usuário e se ele tem carteira, e mostre uma mensagem se ele pode ou não dirigir
+
+        let idade=Number(prompt(`idade: `))
+        let carteira =prompt(`Tem carteira\nsim ou não`)
+
+        if (idade >= 1)
+
+        let maioridade = true
+        let carteira = true
+
+        if(maioridade && carteira){
+            document.write(`Pode dirigir`)
+        }else{
+            document.write(`Não pode dirigir`)
+        }
+        //----------------------------------------------------------------------------------
+
+        
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
