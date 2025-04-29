@@ -68,9 +68,17 @@
     let parte = letras.slice(1,3)
     console.log(parte)
 //slice(início, quantidade, substitutos...)
-    letras.splice(3,1,`f`)
+    letras.splice(3,1,`f`,`g`,`h`)
     console.log(letras)
-
+//indexOf -> retorna o índice de um elemento específico
+    let indice = letras.indexOf(`z`)
+    console.log(indice)
+    let achou = letras.includes(`a`)
+    if(achou){
+        console.log(`achou`)
+    }else{
+        console.log(`não achou`)
+    }
    
   
   </script>
