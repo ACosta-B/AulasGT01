@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mais JavaScript</title>
+  </head>
+  <body>
+    <script>
+  //    let saldo = 500;
+  //    let opcao;
+  //    do {
+  //      let opcoes = prompt(
+  //        `Digite uma opção:\n1 - Dspositar\n2 - Sacar\n3 - Verificar saldo\n4 - Sair`
+  //      );
+  //      if (opcoes == `1`) {
+  //        let deposito = Number(prompt(`Quanto vai depositar?: `));
+  //        saldo += deposito;
+  //        alert(`Depósito salvo com sucesso! Saldo = ${saldo}`);
+  //      }else if(opcao == `2`){
+  //          let saque = Number(prompt(`Saque: `))
+  //          //saldo = saldo - saque
+  //          if(saque <= saldo){
+  //              saldo -= saque
+  //              alert(`Saque realizado com sucesso, saldo = ${saldo}`)
+  //          }else{
+  //              alert(`Saldo insuficiente`)
+  //          }
+  //      }else if(opcoes == `3`){
+  //          alert(`Seu saldo é de = ${saldo}`)
+  //      }
+  //    } while (opcoes != `4`)
+  //    ////Crie uma calculadora: receba 2 números do usuário, e uma operação: +, -, /, ou sair, se ela escolher ////sair, encerrar o programa. Se ela escolher uma das operações, mostrar o resultado.
+  //    //t operação = prompt(`1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Sair`)
+  //    //ile (operação != `5`){
+  //    //    if (operação == `1`){
+  //    //    let n1 = Number(prompt(`N1: `))
+  //    //    let n2 = Number(prompt(`N2: `))
+  //    //    let Soma = n1 + n2
+  //    //    alert(`O resultado é ${Soma}`)
+  //    //
+  //    //}else{
+  //    //    if (operação == `2`) {
+  //    //    let n1 = Number(prompt(`N1: `))
+  //    //    let n2 = Number(prompt(`N2: `))
+  //    //    let Soma = n1 / n2
+  //    //        alert(`O resultado é ${Soma}`)}
+  //    //}}
+  //    //let numero = Number(prompt(`Digite um número`))
+  //    //function Verificar_paridade(numero){
+  //    //    if(numero % 2 == 0){
+  //    //        return `par`
+  //    //    }else{
+  //    //        return `impar`
+  //    //    }
+  //    //}
+  //    //alert(`O número é ${Verificar_paridade(numero)}`)
+//
+  //    function Verificar_faixa_etaria(idade) {
+  //      if (idade > 0 && idade <= 12) {
+  //        return `Criança`;
+  //      } else if (idade > 12 && idade <= 17) {
+  //        return `Adolescente`;
+  //      } else if (idade > 17 && idade <= 49) {
+  //        return `Adulto`;
+  //      } else if (idade > 49 && idade <= 100) {
+  //        return `Idoso`;
+  //      }
+  //      let idade = Number(`Digite sua idade`);
+  //      alert(`Você é ${Verificar_faixa_etaria(idade)}`);
+  //    }
+
+  do{
+    let opcoes = prompt(`1 - Depositar\n2 - Sacar\n3 - Ver Saldo\n4 - Sair`)
+    if (opcoes == `1`) {
+      let deposito = Number(prompt(`Quanto vai depositar?`))
+      alert(`Seu saldo é ${depositar_valor(deposito,saldo)}`)
+    }if (opcoes == `2`) {
+      let deposito= Number(prompt(`Quanto vai sacar?`))
+      sacar_valor(saque,saldo)
+      
+    }
+  }
+    </script>
+  </body>
+</html>
