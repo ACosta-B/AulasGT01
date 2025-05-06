@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+  </head>
+  <body></body>
+
+  <script>
+    function fazerAlgoAssincrono(outrafuncao) {
+      setTimeout(() => {
+        console.log(`A operação foi concluída!`);
+        outrafuncao();
+      }, 2000);
+    }
+
+    function outrafuncao() {
+      console.log(`iniciando outra atividade...`);
+    }
+
+    fazerAlgoAssincrono(() => {
+      console.log(`iniciando nova atividade^^`);
+    });
+
+    console.log(`A operação está sendo processada, aguarde...`);
+    console.log(`Paciência...`);
+    console.log(`Está mais perto de quê longe...`);
+  </script>
+  
+</html>
